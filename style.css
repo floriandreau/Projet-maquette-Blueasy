@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'segoe-ui';
+    src: url('font/segoeui.ttf');
+    }
+
+body{
+    margin: 0;
+    background-color: #515F67;
+    font-family: 'Segoe UI';
+}
+
+pre{
+    font-family: 'Segoe UI';
+}
+
+button{
+    font-size: 1em;
+}
+
+.p-header, nav > ul > li > a, li, h2, h3, button, label{
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+p, pre{
+    color: white;
+}
+
+button{
+    border: none;
+    padding: 0;
+}
+
+nav > ul > li{
+    font-size: 0.7em;
+}
+
+h3 > img{
+    filter: invert();
+}
+
+header{
+    background: no-repeat center url(img/fond-01.jpg);
+    background-position: top;
+    width: 100%;
+    height: 90vh;
+}
+
+h1 > img{
+    filter: grayscale(0);
+}
+
+#div-header{
+    width: 100%;
+    height: 25%;
+    background: rgba(81, 95, 103, 0.65);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight:bold;
+  }
+
+.active_a{
+    margin-top: 13%;
+    border: 2px solid #4BCAFF;
+    padding: 5px 10px;
+    color: #4BCAFF !important;
+}
+
+.active_btn{
+    border: 2px solid #4BCAFF;
+    padding: 5px 10px;
+    color: #4BCAFF !important;
+}
+
+.p-header{
+    background: rgba(81, 95, 103, 0.75);
+    width: auto;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 2.5em;
+}
+
+#p-header{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+
+#p-header > p:nth-child(1){
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* service */
+
+#service{
+    background-color: #4BCAFF;
+    padding: 5% 0;
+}
+
+#service p{
+    font-size: 0.6em;
+}
+
+span{
+    border-bottom: 2px solid white;
+}
+
+article > p, article > h3, aside > aside{
+    padding-right: 5%;
+    margin: 0;
+}
+
+/* folio */
+
+#folio{
+    padding: 5% 0;
+}
+
+#folio, #h-folio, #folio > .container > button{
+    background-color: white;
+    color: #515F67;
+}
+
+.span-bis{
+    border-color: #515F67;
+}
+
+#folio > .container > img{
+    width: 85%;
+    height: 110%;
+    filter: opacity(50%);
+}
+
+#folio > .container > img:hover{
+    width: 85%;
+    height: 110%;
+    filter: opacity(100%);
+    filter: grayscale(1);
+}
+
+/* default section */
+
+#default{
+    padding: 5% 0;
+}
+
+#default > .container > aside > p{
+    font-size: 0.8em;
+    line-height: 1.8em;
+}
+
+.btn-active{
+    margin-top: 5%;
+    text-transform: uppercase;
+    border: 2px solid rgb(47, 55, 59);
+    background: none;
+    padding: 2% 8%;
+    font-size: 70%;
+    color: #353F47;
+}
+
+/* twitter */
+
+#twitter{
+    padding: 5% 0;
+    background-color: #4BCAFF;
+}
+
+#twitter > .container > p{
+    font-size: 1.4em;
+}
+
+#twitter > .container > p > a{
+    color: white;
+    text-decoration: none;
+}
+
+/* john doe */
+
+#john{
+    background: no-repeat center url(img/fond-02.jpg);
+    filter: grayscale(1);
+    height: 5%;
+}
+
+#john > .gray-opacity > .container > aside > img{
+    width: 20px;
+    height: 20px;
+}
+
+.border-white{
+    border: 2px solid white;
+    padding: 2%;
+}
+
+/* testimonials */
+
+#testimo{
+    padding: 5% 0;
+}
+
+#testimo, #testimo > .container > h2, #testimo > .container > p{
+    background-color: white;
+    color: #515F67;
+}
+
+#testimo > .container > a{
+    color: #4BCAFF;
+}
+
+/* contact */
+
+#contact{
+    background: no-repeat bottom url(img/fond-03.jpg);
+    height: 25%;
+}
+
+.gray-opacity > .container{
+    padding: 5% 0;
+}
+
+form{
+    color: white;
+}
+
+.gray-opacity{
+    background-color: rgba(81, 95, 103, 0.5);
+}
+
+input, textarea{
+    background: none;
+    border: 2px solid white;
+}
+
+#btn_input{
+    background-color: #4BCAFF;
+    color: white;
+    width: 100%;
+    height: 60%;
+    margin-top: 7%;
+}
+
+/* footer */
+
+footer{
+    background-color: #353F47;
+    height: 5%;
+    padding: 3% 0; 
+}
+
+.nav{
+    height: 10%;
+}
+
+.nav > ul > li{
+    display: inline;
+    list-style: none;
+    font-size: 0.7em;
+}
+
+.nav > ul >li > a{
+    color: #515F67;
+}
+
+.nav > ul > li:nth-child(1) > a{
+    padding-left: 0;
+}
+
+.nav > ul > li:nth-child(1) > a::after, .nav > ul > li:nth-child(2) > a::after, .nav > ul > li:nth-child(3) > a::after {
+    padding-left: 20%;
+    content: '|';
+}
+
+.nav p{
+    color: #515F67;
+    font-size: 0.7em;
+    padding-top: 6px;
+}
